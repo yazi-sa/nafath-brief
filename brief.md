@@ -10,7 +10,7 @@ You increase MINOR when you add a new feature without breaking existing function
 You increase PATCH when you fix a bug without affecting existing functionality, such as fixing an error in the response.
 In this assistant, an example of a MAJOR change is removing an API endpoint that the mobile app needs to send questions and receive answers.
 
-Resource: Semantic Versioning -  Semantic Versioning 2.0.0 | Semantic Versioning
+Resource: Semantic Versioning - https://semver.org/
 
 
 ## AI
