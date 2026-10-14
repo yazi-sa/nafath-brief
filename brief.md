@@ -54,5 +54,7 @@ For this assistant, citizens’ questions could be stored using codes instead of
 Resource: Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 (General Data Protection Regulation) - https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679
 
 ## Misconception in My Track
+A common misconception is that prompt injection must appear as visible text that a human can easily notice. In fact, malicious instructions can be hidden in external content, such as a webpage or a file, and still affect an AI assistant if the model processes them. This matters for this assistant because it may read official documents or webpages to answer citizens’ questions, and hidden instructions could influence its response. This is supported by the section "LLM01:2025 Prompt Injection" in the OWASP page.
 
 ## Open Question
+How can we test whether an AI assistant is vulnerable to hidden prompt injection in official documents, while ensuring that it still provides accurate answers based on trusted sources?
