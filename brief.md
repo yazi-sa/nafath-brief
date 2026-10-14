@@ -43,7 +43,7 @@ Direct prompt injection happens when a user types a command telling the model to
 Indirect prompt injection happens when the model reads external content, such as a web page or a file, that contains hidden commands.
 Two ways to reduce prompt injections are adding safety instructions to guide the model and checking inputs to avoid unexpected behavior.
 
-Resource: OWASP LLM01 -  https://genai.owasp.org/llmrisk/llm01-prompt-injection/
+Resource: LLM01:2025 Prompt Injection - https://genai.owasp.org/llmrisk/llm01-prompt-injection/
 
 ## Data
 Anonymization means removing identifying details so a person cannot be identified using any method that could realistically be used. 
